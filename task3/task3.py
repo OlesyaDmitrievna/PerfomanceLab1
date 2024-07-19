@@ -33,7 +33,7 @@ def array_parser(values, results):
     return values
 
 if __name__ == "__main__":
-    if len(sys.argv) < 4:
+    if len(sys.argv) != 4:
         print("Usage: python task3.py values.json tests.json report.json")
     else:
         values_path = sys.argv[1] # Получаем пути к файлам json
